@@ -1,6 +1,6 @@
 {
   "name": "@walrus/rollup-plugin-shebang",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "dist/shebang.js",
   "module": "dist/shebang.module.js",
   "source": "src/index.ts",
