@@ -1,0 +1,2 @@
+import e from"magic-string";var r=/^#!.*/;export default function(){var n={};return{name:"rollup-plugin-preserve-shebangs",transform:function(e,a){var u=e.match(r);return u&&(n[a]=u[0]),{code:e=e.replace(r,""),map:null}},renderChunk:function(r,a,u){var o=u.sourcemap;if(a.facadeModuleId&&n[a.facadeModuleId]){var t=new e(r);return t.prepend(n[a.facadeModuleId]+"\n"),{code:t.toString(),map:o?t.generateMap({hires:!0}):null}}return{code:r,map:null}}}}
+//# sourceMappingURL=shebang.module.js.map

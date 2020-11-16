@@ -1,0 +1,1 @@
+{"version":3,"file":"cli.js","sources":["../cli.js"],"sourcesContent":["#!/usr/bin/env node\n\nconst foo = 'i have a shebang!'\n\nmodule.exports = foo;"],"names":[],"mappings":";;;AAEA,MAAM,GAAG,GAAG,oBAAmB;AAC/B;AACA,MAAM,CAAC,OAAO,GAAG,GAAG"}
